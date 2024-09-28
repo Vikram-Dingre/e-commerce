@@ -22,7 +22,7 @@ const Navbar = () => {
           <NavLink to={"/"}>home</NavLink>
         </li>
         <li className="box-border border-b-2  hover:border-b-2  hover:border-black border-transparent transition-all duration-[.2s] ease">
-          <NavLink to={"/collection"}>collection</NavLink>
+          <NavLink to={"/Collection"}>Collection</NavLink>
         </li>
         <li className="box-border border-b-2  hover:border-b-2  hover:border-black border-transparent transition-all duration-[.2s] ease">
           <NavLink to={"/about"}>about</NavLink>

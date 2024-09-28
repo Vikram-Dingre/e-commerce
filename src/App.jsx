@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ShopContextProvider from "./context/ShopContextProvider";
 import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Collection from "./pages/collection";
+import Collection from "./pages/Collection";
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Cart from "./pages/Cart";
@@ -18,7 +18,7 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/collection" element={<Collection />} />
+            <Route path="/Collection" element={<Collection />} />
             <Route path="/About" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/cart" element={<Cart />}/>
