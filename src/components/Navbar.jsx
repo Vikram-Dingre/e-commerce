@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center w-[100%] p-4 fixed top-0 left-0 right-0 z-10 bg-white border-b-2">
-      <h1 className="uppercase font-medium ">vikram's store</h1>
+      <h1 className="uppercase font-medium ">vikram store</h1>
       <ul className="flex gap-8 items-center justify-center list-none capitalize ">
         <li className="box-border border-b-2 hover:border-b-2  hover:border-black border-transparent transition-all duration-[.2s] ease">
           <NavLink to={"/"}>home</NavLink>
