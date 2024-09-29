@@ -8,6 +8,7 @@ import Contact from "./pages/Contact"
 import Cart from "./pages/Cart";
 import "./App.css"
 import ProductPage from "./pages/ProductPage";
+import LoginPage from "./pages/LoginPage";
 // import {products} from './ProductsData'
 // import ProductsData from "./ProductsData";
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/cart" element={<Cart />}/>
             <Route path="/product/:id" element={<ProductPage/>}/>
+            <Route path="/Login" element={<LoginPage/>}/>
           </Routes>
         </BrowserRouter>
       </ShopContextProvider>

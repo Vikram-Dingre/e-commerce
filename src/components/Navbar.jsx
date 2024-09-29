@@ -4,7 +4,7 @@ import { IoIosContacts, IoMdContact } from "react-icons/io";
 import { ImCross } from "react-icons/im";
 import { IoCart, IoCartOutline } from "react-icons/io5";
 import { shopContext } from "../context/ShopContextProvider";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const { selectedTab, setSelectedTab,cartItems} = useContext(shopContext);
@@ -55,7 +55,9 @@ const Navbar = () => {
         >
           {toggleSearchBar ? <ImCross /> : <CiSearch />}
         </div>
+        <Link to={'/Login'}>
         <IoMdContact />
+        </Link>
         <div className="relative">
          <NavLink to={"/cart"}> <IoCart /></NavLink>
           <div className=" h-[17px] w-[17px] rounded-full bg-red-500 text-white absolute -top-[20%] -right-[30%] text-[11px] flex items-center justify-center text-center cursor-pointer">
